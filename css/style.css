@@ -1,0 +1,93 @@
+body {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+}
+
+.header {
+    padding: 60px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+  }
+
+  .navbar {
+    display: flex;
+    background-color: white;
+  }
+
+  .navbar a {
+    color: black;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+  }
+
+  .navbar a:hover {
+    background-color: black;
+    color: white;
+  }
+
+  footer {
+    background-color: yellow;
+    color: black;
+    text-align: center;
+    font-size: 25px;
+  }
+
+ .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px 10px;
+    background-color: crimson;
+ }
+  .flipcard1 {
+    flex: 50%;
+    padding: 15px;
+    border: 2px solid white;
+    background-color: aqua;
+    margin: 15px;
+  }
+ .flipcard2 {
+    flex: 50%;
+    padding: 15px;
+    border: 2px solid white;
+    background-color: blueviolet;
+    margin: 15px;
+  }
+
+  .flipcard3 {
+    flex: 50%;
+    padding: 15px;
+    border: 2px solid white;
+    background-color: chartreuse;
+    margin: 15px;
+  }
+
+  .flipcard4 {
+    flex: 50%;
+    padding: 15px;
+    border: 2px solid white;
+    background-color: cadetblue;
+    margin: 15px;
+  }
+  .row1 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px;
+    padding: 15px;
+  }
+
+  .row2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px;
+    padding: 15px;
+  }
